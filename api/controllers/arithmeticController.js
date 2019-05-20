@@ -17,7 +17,6 @@ exports.calculate = function(req, res) {
     'divide':   function(a,b) { return a / b },
   };
 
-  // Remove the first and third plus signs from the add method
   // Determine the operation
 
   if (! req.query.operation) {
